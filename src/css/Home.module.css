@@ -1,0 +1,40 @@
+
+@font-face {
+  font-family: 'BaminHanna';
+  src: url('../font/BMHANNA_11yrs_ttf.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Bit_Pride';
+  src: url('../font/비트로\ 프라이드\ TTF.ttf') format('truetype');
+}
+
+.Title { 
+  font-family: 'BaminHanna', sans-serif;
+  font-size: 45px;
+  display: 'block';
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Title:hover {
+  background-color: #ffffff;
+}
+
+li {
+  padding-bottom: 10px; /* 내부 요소들 사이에 공백 추가 */
+  
+  white-space: pre; /* 공백을 유지하도록 설정 */  
+  
+}
+
+.content {
+  font-family: 'Bit_Pride', sans-serif;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.footer{
+  font-family: 'Bit_Pride';
+
+}

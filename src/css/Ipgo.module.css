@@ -1,0 +1,47 @@
+/* styles.css */
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr ; /* 화면을 두 개의 열로 나눕니다. */
+  height: 100vh; /* 화면 전체 높이를 사용합니다. */
+}
+
+.block {
+  text-align: center;
+}
+
+
+
+.block1 {
+  /* 각 블록의 스타일 설정 */
+  background-color: #bee2ff;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.block1 p {
+  font-weight: bold;
+  font-size: 150%;
+}
+
+.block2 {
+  /* 각 블록의 스타일 설정 */
+  background-color: #d6f0ff;
+}
+
+.block2 p {
+  font-weight: bold;
+  font-size: 150%;
+
+}
+
+.block3 {
+  /* 각 블록의 스타일 설정 */
+  background-color: #b1f6ff;
+}
+
+.block3 p {
+  font-weight: bold;
+  font-size: 150%;
+
+}

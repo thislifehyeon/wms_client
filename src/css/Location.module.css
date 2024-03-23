@@ -1,0 +1,171 @@
+@font-face {
+  font-family: 'Gmarket';
+  src: url('../font/GmarketSansTTFBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Bit_Pride';
+  src: url('../font/비트로\ 프라이드\ TTF.ttf') format('truetype');
+}
+
+.LocationPage {
+  display: 'block';
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+.LocationPage_title {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.QueryContainer {
+  background-color: #dbffe3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; 
+}
+
+.QueryOptions {
+  font-size: 20px;
+  background-color: #d6f0ff;
+}
+
+.QueryButton {
+  font-size: 15px;
+  margin-left: 10px;
+  height: 30px;
+  width: 80px;
+}
+
+.QueryButton:hover {
+  cursor: pointer; /* 커서를 손가락 모양으로 변경 */
+}
+
+.DetailsContainer {
+  font-size: 20px;
+  background-color: #fff6f6;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  padding: 10px;
+  font-family: 'Bit_Pride';
+}
+
+.DetailsContainerRow {
+  margin-top: 10px;
+  font-size: 15px;
+  background-color: #fff4f4;
+  display: flex;
+  justify-content: center;
+}
+
+.DetailsContainerRowBox {
+  margin-right: 5px;
+  background-color: #ffe3e3;
+}
+
+.DetailsContainerRowTop{
+  font-size: 12px;
+  text-align: left;
+}
+
+.DetailsContainerRowMiddle{
+  border-bottom: 1px solid #000;
+}
+
+input.custom_input {
+  border: none; /* 테두리 제거 */
+  border-bottom: 1px solid #000;
+  font-size: 15px;
+  text-align: center;
+  background-color: transparent; /* 배경색 투명 */
+  margin: 0; /* 여백 제거 */
+  padding: 0px; /* 패딩 조정 */
+  color: #333; /* 폰트 색상 조정 */
+  font-family: 'Bit_Pride', sans-serif;
+} 
+
+input.custom_input.redtext {
+  color: #ff0000; /* 폰트 색상 조정 */
+} 
+
+input.custom_input:focus {
+  outline: none;  
+}
+
+input.custom_input:disabled {
+  color: #a9a9a9; 
+}
+
+select.custom_select {
+  border: none; /* 테두리 제거 */
+  border-bottom: 1px solid #000;
+  font-size: 15px;
+  text-align: center;
+  background-color: transparent; /* 배경색 투명 */
+  margin: 0; /* 여백 제거 */
+  padding: 0px; /* 패딩 조정 */
+  color: #333; /* 폰트 색상 조정 */
+  font-family: 'Bit_Pride', sans-serif;
+} 
+
+
+.DetailsContainerRowBottom{ 
+  font-size: 12px;
+  text-align: right;
+}
+
+.LocationList {
+  font-size: 20px;
+  background-color: #ffdaf6;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+
+
+
+.styled_table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd; /* 표의 테두리 스타일 지정 */
+  font-size: 15px;
+}
+.styled_table input[type="text"],
+.styled_table input[type="number"] {
+  width: 100%;
+}
+
+.styled_table th, .styled_table td {
+  padding: 8px; /* 셀 내부 여백 지정 */
+  border: 1px solid #ddd; /* 셀 사이의 구분선 스타일 지정 */
+}
+
+.styled_table th {
+  background-color: #f2f2f2; /* 제목 행의 배경색 지정 */
+  font-weight: normal; /* 제목 행의 글꼴 두께 지정 */
+}
+
+.styled_table tbody tr:hover {
+  background-color: #d3d3d3; /* 마우스를 올렸을 때의 배경색 */
+  cursor: pointer; /* 커서를 손가락 모양으로 변경 */
+}
+
+.styled_table td {
+  text-align: left; /* 텍스트 왼쪽 정렬 */
+  background-color: #ffffff;
+}
+
+.styled_table tbody tr:hover td {
+  background-color: inherit; /* tr:hover 시 td의 배경색을 상속받아 투명하지 않게 함 */
+}
+
+
+
+.styled_table td input:focus{   /*표 안의 인풋박스 커서 올렸을 때 외곽선 없애기*/
+  outline: none;
+  }

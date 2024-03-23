@@ -1,0 +1,6 @@
+/* Button.module.css */
+
+.StatusPage { 
+  display: flex;
+  flex-direction : row;
+}

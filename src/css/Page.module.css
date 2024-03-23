@@ -1,0 +1,18 @@
+/* Button.module.css */
+
+.Page { 
+  display: 'block';
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Page:hover {
+  background-color: #ffffff;
+}
+
+li {
+  padding-bottom: 10px; /* 내부 요소들 사이에 공백 추가 */
+  
+  white-space: pre; /* 공백을 유지하도록 설정 */
+  
+}

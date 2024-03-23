@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import IpgoPage from './pages/ipgo';
+import StatusPage from './pages/status';
+import StatusTable from './pages/status_table';
+import ExpChange from './pages/exp_change';
+import Location from './pages/location';
+import Product_Master from './pages/product_master.js';
+
+
+import SideBar from './components/SideBar';
+import VisitCounter from './components/VisitCounter.js';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div style={{ display: 'flex', flexDirection: 'column', height: '100vh' }}>
+      <VisitCounter />
+      <SideBar />
+      <Routes style={{ flex: 1 }}>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/IpgoPage" element={<IpgoPage />} />
+        <Route path="/StatusPage" element={<StatusPage />} />
+        <Route path="/Status_Table" element={<StatusTable />} />
+        <Route path="/Exp_Change" element={<ExpChange />} />
+        <Route path="/Location" element={<Location />} />
+        <Route path="/" element={<Product_Master />} />
+      </Routes>
+      </div>
+    </Router>
   );
 }
+
+
 
 export default App;

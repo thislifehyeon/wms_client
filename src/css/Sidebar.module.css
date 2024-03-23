@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'BaminHanna';
+  src: url('../font/BMHANNA_11yrs_ttf.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Bit_Pride';
+  src: url('../font/비트로\ 프라이드\ TTF.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Gmarket';
+  src: url('../font/GmarketSansTTFBold.ttf') format('truetype');
+}
+
+.sidebar {
+  font-family: 'Bit_Pride', sans-serif;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 200px; /* 사이드바의 너비 */
+  background-color: #f0f0f0; /* 사이드바의 배경색 */
+  height: 100%;
+}
+
+.button {
+  font-family: 'Gmarket', sans-serif;
+  display: block;
+  margin: auto;
+}

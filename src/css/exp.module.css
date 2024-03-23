@@ -1,0 +1,56 @@
+/* styles.css */
+@font-face {
+  font-family: 'TTHakgyoansimJiugaeR';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_keris@1.0/TTHakgyoansimJiugaeR.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.container {
+  display: grid;
+  grid-template-columns: 1.3fr 1.5fr; /* 화면을 두 개의 열로 나눕니다. */
+  height: 100vh; /* 화면 전체 높이를 사용합니다. */
+}
+
+.block {
+  text-align: center;
+  width: 100%;
+}
+
+
+
+.block1 {
+  /* 각 블록의 스타일 설정 */
+  background-color: #cfedff;
+  margin-left: 20px;
+  margin-right: 20px;
+  
+}
+
+.block1 p {
+  font-weight: bold;
+  font-size: 150%;
+}
+
+.block2 {
+  /* 각 블록의 스타일 설정 */
+  background-color: #96d9ff;
+}
+
+.block2 p {
+  font-weight: bold;
+  font-size: 150%;
+
+}
+
+.block3 {
+  /* 각 블록의 스타일 설정 */
+  background-color: hsl(122, 100%, 90%);
+}
+
+.block3 p {
+  font-weight: bold;
+  font-size: 150%;
+
+}

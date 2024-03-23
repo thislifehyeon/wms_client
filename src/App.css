@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: 'BaminHanna';
+  src: url('./font/BMHANNA_11yrs_ttf.ttf') format('truetype');
+  /* 다른 포맷의 폰트 파일도 지원할 경우 여기에 추가 */
+}
